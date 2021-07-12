@@ -16,7 +16,7 @@ spec:
         app: app
     spec:
       containers:
-      - image: sihemkh/app-pfe:v1
+      - image: sihemkh/app-pfe:v2
         name: app
         env:
         - name: APP_DATABASE_HOST
